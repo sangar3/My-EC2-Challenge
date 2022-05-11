@@ -42,7 +42,7 @@ public class FrontController extends HttpServlet{
 	@Override
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//save the URI and rewrite it to determine what functionality the user is requesting based on that endpoint
-		final String URI = req.getRequestURI().replace("/HelloFrontController/", "");
+		final String URI = req.getRequestURI().replace("/EC2Challenge/", "");
 		log.info("URI: " + URI);
 		
 		switch (URI) {
@@ -60,7 +60,7 @@ public class FrontController extends HttpServlet{
 	@Override
 	protected void doPut(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//save the URI and rewrite it to determine what functionality the user is requesting based on that endpoint
-		final String URI = req.getRequestURI().replace("/HelloFrontController/", "");
+		final String URI = req.getRequestURI().replace("/EC2Challenge/", "");
 		log.info("URI: " + URI);
 		
 		switch (URI) {
@@ -78,7 +78,7 @@ public class FrontController extends HttpServlet{
 	@Override
 	protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		//save the URI and rewrite it to determine what functionality the user is requesting based on that endpoint
-		final String URI = req.getRequestURI().replace("/HelloFrontController/", "");
+		final String URI = req.getRequestURI().replace("/EC2Challenge/", "");
 		log.info("URI: " + URI);
 		
 		switch (URI) {
