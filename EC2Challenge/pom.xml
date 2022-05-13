@@ -11,6 +11,7 @@
 	   
 	     <sonar.organization>sangar3</sonar.organization>
   	    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	   <sonar.host.url>https://sonar.my-internal-company-domain.net</sonar.host.url>
     </properties>
 
     <dependencies>
